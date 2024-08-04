@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "FitGirl After Dark",
   "version": "1.1",
   "description": "Adds dark mode to FitGirl's website.",
