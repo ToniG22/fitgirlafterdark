@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "FitGirl After Dark",
+  "version": "1.1",
+  "description": "Adds dark mode to FitGirl's website.",
+  "icons": {
+    "32": "./icons/fitgirlafterdark.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://fitgirl-repacks.site/*"],
+      "css": ["fitgirlafterdark.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+:root {
+  --background-color: #111;
+  --text-color: white;
+  --link-hover-color: #24890d;
+  --spoiler-background: #222;
+}
+
+body,
+#page,
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-title,
+.su-spoiler,
+.su-spoiler-title,
+.post-content {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+.post-message {
+  color: var(--text-color) !important;
+}
+
+.entry-meta a,
+.entry-title a {
+  color: var(--text-color) !important;
+  text-decoration: none; /* Prevent underline on links */
+}
+
+.entry-meta a:hover,
+.entry-title a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+#jBnskDj9 {
+  background-color: var(--link-hover-color) !important;
+  color: var(--text-color) !important;
+}
