@@ -1,10 +1,11 @@
 {
   "manifest_version": 2,
   "name": "FitGirl After Dark",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Adds dark mode to FitGirl's website.",
   "icons": {
-    "32": "./icons/fitgirlafterdark.jpg"
+    "32": "./icons/fitgirlafterdark32.jpg",
+    "192": "./icons/fitgirlafterdark192.jpg"
   },
   "content_scripts": [
     {
